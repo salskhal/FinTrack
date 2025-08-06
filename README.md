@@ -4,7 +4,7 @@ A modern, responsive financial dashboard built with React, TypeScript, and Next.
 
 ## 🚀 Live Demo
 
-**[View Live Application](YOUR_DEPLOYED_URL_HERE)**
+**[View Live Application](https://fin-track-beta-one.vercel.app/)**
 
 ## 📋 Project Overview
 
@@ -93,11 +93,14 @@ interface Transaction {
 }
 
 interface DashboardSummary {
-  totalBalance: number; // $12,345 (+5%)
-  totalCredits: number; // $7,890 (+3%)
-  totalDebits: number; // $4,455 (-2%)
-  transactionCount: number; // 150 (+10%)
-  // ... percentage changes
+  totalBalance: number;
+  totalCredits: number;
+  totalDebits: number;
+  transactionCount: number;
+  balanceChange: number;
+  creditsChange: number;
+  debitsChange: number;
+  transactionChange: number;
 }
 ```
 
@@ -200,7 +203,6 @@ Key responsive features:
 ### Code Quality
 
 - **TypeScript strict mode** enabled
-- **ESLint configuration** for code consistency
 - **Component prop validation** with TypeScript interfaces
 - **Error boundary implementation** for graceful error handling
 
@@ -210,38 +212,16 @@ Key responsive features:
 - Mobile browsers (iOS Safari, Chrome Mobile)
 - Progressive enhancement approach
 
-## 🚀 Deployment
 
-This application is optimized for deployment on:
-
-- **Vercel** (recommended for Next.js)
-- **Netlify**
-- **AWS Amplify**
-- **Any static hosting service**
-
-### Deploy to Vercel
-
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy with zero configuration
-
-### Deploy to Netlify
-
-1. Build the application: `npm run build`
-2. Deploy the `out` folder to Netlify
 
 ## 👨‍💻 Developer Information
 
-**Developed by**: [Your Name]  
-**Email**: [your.email@example.com]  
-**GitHub**: [your-github-username]  
-**LinkedIn**: [your-linkedin-profile]
+**Developed by**: Salman-Yusuf Khalid Olaniyi  
+**Email**: [olaniyisal@gmail.com]  
+**GitHub**: [salskhal](https://github.com/salskhal)  
+**LinkedIn**: [salskhal](https://www.linkedin.com/in/salskhal/)
 
-### Development Timeline
 
-- **Project Start**: [Date]
-- **Completion**: [Date]
-- **Total Development Time**: [X hours/days]
 
 ## 📄 License
 

@@ -34,8 +34,8 @@ const TabNavigation: React.FC<TabNavigationProps> = ({
             aria-controls={`${tab.id.toLowerCase()}-panel`}
             className={`pb-2 font-medium text-sm transition-colors duration-200 border-b-2 ${
               currentTab === tab.id
-                ? 'text-blue-600 border-blue-600'
-                : 'text-gray-500 border-transparent hover:text-gray-700 hover:border-gray-300'
+                ? 'text-[#437D8E] border-[#437D8E]'
+                : 'text-gray-500 border-transparent hover:text-[#437D8E] hover:border-[#437D8E]'
             }`}
             onClick={() => handleTabClick(tab.id)}
           >
